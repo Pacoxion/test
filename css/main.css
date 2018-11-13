@@ -2,9 +2,14 @@
     margin: 0;
     padding: 0;
 }
+
 li {list-style-type:none;}
 body{
     background-color: #eef6fb;
+}
+#main{
+    width: 1300;
+    margin: 0 auto;
 }
 .top,.mid,.footbar{
     width: 1300px;
