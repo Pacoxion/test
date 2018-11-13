@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+li {list-style-type:none;}
+body{
+    background-color: #eef6fb;
+}
+.mid{
+    width: 100%;
+    height: 200px;
+}
+.topImg{
+    width: 100%;
+    height: 70px;
+}
+.topBar li{
+    display: inline-block;
+    margin: 0px 10px;
+    border-radius: 7px;
+    padding: 3px 10px;
+    margin: 2px 0px;
+}
+.invegator{
+    display: flex;
+    justify-content: space-between;
+    background-color: #6286a0;
+    padding: 10px 25px;
+}
+.carousel1 img{
+    width: 100%;
+    height: 200px;
+    
+}
+.cicle div{
+    width: 8px;
+    height: 8px;
+    border: 4px solid rgb(117, 157, 186);
+    border-radius: 50%;
+    margin: 5px;
+  
+}
+.cicle{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -30px;   
+}
+
+.proImg img{
+    width: 250px;
+    height: 120px;
+}
+.center{
+    width: 750px;
+    margin: 30px auto;
+}
+.text{
+    display: flex;
+    justify-content: space-between;
+    color: rgb(8, 123, 193);
+}
+.proImg{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.knowMoretext{
+    width: 750px;
+    margin: 0 auto;
+    position: relative;
+    
+}
+
+.proCenterImg img,.proCenterleft{
+    width: 500px;
+}
+.text1{
+    color: rgb(8, 123, 193);
+    display: flex;
+    justify-content: space-between;
+}
+.probar li{
+background-color: rgb(221, 218, 218);
+height: 20px;
+width: 210px;
+margin: 5px 5px;
+padding-left: 10px;
+}
+.proCenter{
+    margin: 50px 0;
+    display: flex;
+    justify-content: center;
+
+}
+.proCenterRight{
+    margin: 25px 0 0 50px;
+    background-color: rgb(255, 255, 255);
+}
+.copyright{
+    background-color: rgb(215, 228, 238);
+    display: flex;
+    justify-content: center;
+    height: 160px;
+    padding-top: 60px;
+}
+.contact{
+    margin-left: 60px;
+}
+.copyright img{
+    height: 40px;
+}
+#foot{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(98, 134, 160);
+}
