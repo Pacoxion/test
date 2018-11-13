@@ -7,13 +7,13 @@ body{
     background-color: #eef6fb;
 }
 .top,.mid,.footbar{
-    width: 1000px;
+    width: 1300px;
 }
 .mid{
     height: 200px;
 }
 .topImg{
-    width: 100%;
+    width: 1300px;
     height: 70px;
 }
 .topBar li{
@@ -30,7 +30,7 @@ body{
     padding: 10px 25px;
 }
 .carousel1 img{
-    width: 100%;
+    width: 1300px;
     height: 200px;
     
 }
@@ -113,7 +113,7 @@ padding-left: 10px;
     height: 40px;
 }
 #foot{
-    width: 100%;
+    width: 1300px;
     height: 40px;
     background-color: rgb(98, 134, 160);
 }
