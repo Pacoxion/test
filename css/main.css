@@ -82,7 +82,7 @@ body{
     
 }
 .proCenterImg img,.proCenterleft{
-    width: 775px;
+    width: 770px;
 }
 .text1{
     color: rgb(8, 123, 193);
@@ -91,9 +91,9 @@ body{
 }
 .probar li{
 background-color: rgb(221, 218, 218);
-height: 33px;
-width: 185px;
-margin: 5px 0;
+height: 38.2px;
+width: 195px;
+
 text-align: center;
 display: flex;
 flex-direction: column;
