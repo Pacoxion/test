@@ -21,18 +21,18 @@ window.onload = function () {
         if (roll1[0].style.display == 'block') {
             roll1[0].style.display = 'none';
             roll1[1].style.display = 'block';
-            circle[0].style.backgroundColor = 'rgb(117, 157, 186)';
-            circle[2].style.backgroundColor = '';
+            circle[1].style.backgroundColor = 'rgb(117, 157, 186)';
+            circle[0].style.backgroundColor = '';
         } else if (roll1[1].style.display == 'block') {
             roll1[1].style.display = 'none';
             roll1[2].style.display = 'block';
-            circle[1].style.backgroundColor = 'rgb(117, 157, 186)';
-            circle[0].style.backgroundColor = '';
+            circle[2].style.backgroundColor = 'rgb(117, 157, 186)';
+            circle[1].style.backgroundColor = '';
         } else {
             roll1[2].style.display = 'none';
             roll1[0].style.display = 'block';
-            circle[2].style.backgroundColor = 'rgb(117, 157, 186)';
-            circle[1].style.backgroundColor = '';
+            circle[0].style.backgroundColor = 'rgb(117, 157, 186)';
+            circle[2].style.backgroundColor = '';
         }
     };
     setInterval(change1, 3000);
