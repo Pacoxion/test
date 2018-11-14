@@ -14,6 +14,9 @@ body{
 .top,.mid,.footbar{
     width: 1360px;
 }
+.center,.proCenter{
+    margin: 80px 0;
+}
 .mid{
     height: 200px;
 }
@@ -34,9 +37,9 @@ body{
     background-color: #6286a0;
     padding: 10px 25px;
 }
-.carousel1 img{
+.mid,.carousel1 img{
     width: 1360px;
-    height: 200px;
+    height: 330px;
     
 }
 .cicle div{
@@ -55,11 +58,11 @@ body{
 }
 
 .proImg img{
-    width: 250px;
-    height: 120px;
+    width: 320px;
+    height: 160px;
 }
 .center{
-    width: 750px;
+    width: 960px;
     margin: 30px auto;
 }
 .text{
@@ -73,14 +76,13 @@ body{
     justify-content: center;
 }
 .knowMoretext{
-    width: 750px;
+    width: 960px;
     margin: 0 auto;
     position: relative;
     
 }
-
 .proCenterImg img,.proCenterleft{
-    width: 500px;
+    width: 775px;
 }
 .text1{
     color: rgb(8, 123, 193);
@@ -89,19 +91,20 @@ body{
 }
 .probar li{
 background-color: rgb(221, 218, 218);
-height: 20px;
-width: 210px;
-margin: 5px 5px;
-padding-left: 10px;
+height: 33px;
+width: 185px;
+margin: 5px 0;
+text-align: center;
+display: flex;
+flex-direction: column;
+justify-content: center;
 }
 .proCenter{
-    margin: 50px 0;
     display: flex;
     justify-content: center;
-
 }
 .proCenterRight{
-    margin: 25px 0 0 50px;
+    margin: 25px 0 0 0;
     background-color: rgb(255, 255, 255);
 }
 .copyright{
