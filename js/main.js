@@ -5,6 +5,7 @@ window.onload = function () {
     var circle = document.getElementsByClassName('cicle')[0].getElementsByTagName('div');
     var roll2 = document.getElementsByClassName('proCenterImg')[0].getElementsByTagName('img');
     var proli = document.getElementsByClassName('proBar')[0].getElementsByTagName('li');
+    var foot=document.getElementById('foot');
 
     //导航栏鼠标滑过
     for (var i = 0; i < topbar.length; i++) {
@@ -15,6 +16,11 @@ window.onload = function () {
             e.target.style.backgroundColor = 'rgb(98,134,160)';
         });
     }
+    //联系我们滑动
+    topbar[4].addEventListener('click',function(){
+        
+        window.scrollTo(0,foot.offsetTop);
+    })
 
     //轮播图1
     function change1() {
