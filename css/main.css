@@ -22,7 +22,7 @@ body{
 }
 .topImg{
     width: 1360px;
-    height: 70px;
+    height: 80px;
 }
 .topBar li{
     display: inline-block;
@@ -30,12 +30,18 @@ body{
     border-radius: 7px;
     padding: 3px 10px;
     margin: 2px 0px;
+    text-align: center;
+    color: white;
+}
+#tobarli{
+    background-color: rgb(47,90,155);
+    width: 100px;
 }
 .invegator{
     display: flex;
     justify-content: space-between;
     background-color: #6286a0;
-    padding: 10px 25px;
+    padding: 3px 25px;
 }
 .mid,.carousel1 img{
     width: 1360px;
@@ -63,7 +69,7 @@ body{
 }
 .center{
     width: 960px;
-    margin: 30px auto;
+    margin: 40px auto;
 }
 .text{
     display: flex;
@@ -88,6 +94,8 @@ body{
     color: rgb(8, 123, 193);
     display: flex;
     justify-content: space-between;
+    position: relative;
+    top: -20px;
 }
 .probar li{
 background-color: rgb(221, 218, 218);
@@ -127,4 +135,37 @@ justify-content: center;
     width: 1360px;
     height: 40px;
     background-color: rgb(98, 134, 160);
+}
+/* 关于我们*/
+
+#head{
+    width: 1080px;
+    margin: 0 auto 60px auto;
+}
+#head img{
+    width: 1080px;
+    margin: 25px auto 15px auto;
+    }
+#head div{
+        width: 1080px;
+        height: 70px;
+        background-color: rgb(215, 228, 237);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border-left: rgb(37, 83, 149) 5px solid;
+        color: rgb(37, 83, 149);
+        padding-left: 10px;
+    }
+#aboutustext{
+    width: 1080px;
+    margin: 0 auto 80px auto;
+}
+#aboutustext p{
+    text-indent:30px;
+    line-height: 25px;
+}
+#aboutustext img{
+    width: 400px;
+    float: right;
 }
