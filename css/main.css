@@ -25,6 +25,7 @@ body{
     height: 80px;
 }
 .topBar li{
+    font-weight: 800;
     display: inline-block;
     margin: 0px 10px;
     border-radius: 7px;

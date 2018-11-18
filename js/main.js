@@ -7,6 +7,8 @@ window.onload = function () {
     var proli = document.getElementsByClassName('proBar')[0].getElementsByTagName('li');
     var foot = document.getElementById('foot');
     var part = document.getElementsByClassName('part')
+    var about = document.getElementsByClassName('text')[0];
+    var procenter = document.getElementsByClassName('proCenter')[0];
 
     //导航栏鼠标点击
     for (var j = 0; j < topbar.length-1; j++) {
@@ -27,6 +29,31 @@ window.onload = function () {
             }
         });
     }
+//其它点击
+    //关于我们
+about.addEventListener('click',function(e){
+    for (var i = 0; i < topbar.length; i++) {
+        topbar[i].removeAttribute('id', 'tobarli')
+    }
+    for (var k = 0; k < part.length; k++) {
+        part[k].style.display = 'none';
+     }
+     topbar[1].setAttribute('id', 'tobarli');
+     part[1].style.display = 'block';
+                
+})
+    //产品中心
+    procenter.addEventListener('click',function(e){
+        for (var i = 0; i < topbar.length; i++) {
+            topbar[i].removeAttribute('id', 'tobarli')
+        }
+        for (var k = 0; k < part.length; k++) {
+            part[k].style.display = 'none';
+         }
+         topbar[2].setAttribute('id', 'tobarli');
+         part[2].style.display = 'block';
+                    
+    })
 
     //联系我们滑动
     topbar[4].addEventListener('click', function () {
