@@ -33,6 +33,10 @@ body{
     text-align: center;
     color: white;
 }
+.topBar li:hover{
+    background-color: rgb(47,90,155);
+    width: 100px;
+}
 #tobarli{
     background-color: rgb(47,90,155);
     width: 100px;

@@ -8,17 +8,26 @@ window.onload = function () {
     var foot = document.getElementById('foot');
     var part = document.getElementsByClassName('part')
 
-    //导航栏鼠标滑过
-    for (var i = 0; i < topbar.length; i++) {
-        topbar[i].addEventListener('mouseenter', function (e) {
-            //e.target.style.backgroundColor = 'rgb(47,90,155)';
-            e.target.setAttribute('id', 'tobarli');
-        });
-        topbar[i].addEventListener('mouseleave', function (e) {
-            // e.target.style.backgroundColor = 'rgb(98,134,160)';
-            e.target.removeAttribute('id', 'tobarli');
+    //导航栏鼠标点击
+    for (var j = 0; j < topbar.length-1; j++) {
+
+        topbar[j].addEventListener('click', function (e) {
+            for (var i = 0; i < topbar.length; i++) {
+                topbar[i].removeAttribute('id', 'tobarli')
+            }
+            e.target.setAttribute('id', 'tobarli')
+             for (var k = 0; k < part.length; k++) {
+                part[k].style.display = 'none';
+             }
+                
+            for (var k = 0; k < part.length; k++) {
+                if (topbar[k].hasAttribute('id', 'tobarli')) {
+                    part[k].style.display = 'block';
+                }
+            }
         });
     }
+
     //联系我们滑动
     topbar[4].addEventListener('click', function () {
 
