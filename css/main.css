@@ -211,3 +211,10 @@ justify-content: center;
 #moreus img{
     width: 1080px;
 }
+#yeji img{
+    width: 540px;
+    
+}
+#yeji{
+    display: flex;
+}
