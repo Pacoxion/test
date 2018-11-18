@@ -147,7 +147,7 @@ justify-content: center;
     margin: 25px auto 15px auto;
     }
 #head div{
-        width: 1080px;
+        width: 1065px;
         height: 70px;
         background-color: rgb(215, 228, 237);
         display: flex;
@@ -169,4 +169,26 @@ justify-content: center;
     width: 400px;
     float: right;
     margin: 0 0 30px 30px;
+}
+/* 产品中心*/
+#promenu{
+    width: 1080px;
+    margin: 0 auto 80px auto;
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+}
+#promenu img{
+    width: 500px;
+    height: 320px;
+    margin: 25px 0;
+}
+
+/* 企业动态*/
+#moreus{
+    width: 1080px;
+    margin: 0 auto 40px auto;
+}
+#moreus img{
+    width: 1080px;
 }
