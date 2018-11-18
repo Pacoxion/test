@@ -102,7 +102,7 @@ body{
 }
 .proCenter{
     width: 965px;
-    margin: 0 auto;
+    margin: 80px auto;
 }
 #procenterdown{
     display: flex;
