@@ -168,4 +168,5 @@ justify-content: center;
 #aboutustext img{
     width: 400px;
     float: right;
+    margin: 0 0 30px 30px;
 }
