@@ -24,6 +24,9 @@ body{
 .part{
     margin-top: 110px;
 }
+.propart{
+    margin-top: 140px;
+}
 .mid{
     height: 200px;
 }
@@ -157,7 +160,7 @@ justify-content: center;
 }
 /* 关于我们*/
 
-#head{
+#head,#proshead{
     width: 1080px;
     margin: 0 auto 60px auto;
 }
@@ -213,8 +216,61 @@ justify-content: center;
 }
 #yeji img{
     width: 540px;
-    
 }
 #yeji{
     display: flex;
+}
+/* propart*/
+#proshead .bar{
+        width: 1065px;
+        height: 70px;
+        background-color: rgb(215, 228, 237);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border-left: rgb(37, 83, 149) 5px solid;
+        color: rgb(37, 83, 149);
+        padding-left: 10px;
+        margin-top: 30px;
+    }
+.prosHC{
+    margin: 20px 0;
+    width: 1080px;
+    display: flex;
+    justify-content: space-between;
+}
+.prosHC img{
+    width: 835px;
+}
+.prosHC ul{
+    height: 415px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.prosHC li:hover{
+    background-color: rgb(47, 90, 155);
+}
+.prosHC li{
+    width: 215px;
+    text-align: center;
+    background-color: rgb(215, 228, 238);
+    border-radius: 10px;
+    height: 43px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.proscontent{
+    width: 1080px;
+    margin: 5px auto;
+}
+.contenttitle{
+width: 1080px;
+height: 25px;
+margin: 5px auto;
+display: flex;
+flex-direction: column;
+justify-content: center;
+background-color: rgb(233, 233, 233);
 }
