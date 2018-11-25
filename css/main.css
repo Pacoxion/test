@@ -221,6 +221,18 @@ justify-content: center;
     display: flex;
 }
 /* propart*/
+.img1{
+    width: 720px;
+}
+.img2{
+    width: 1080px;
+}
+.img3{
+    width: 850px;
+}
+.img4{
+    width: 985px;
+}
 #proshead .bar{
         width: 1065px;
         height: 70px;
@@ -267,8 +279,8 @@ justify-content: center;
 }
 .contenttitle{
 width: 1080px;
-height: 25px;
-margin: 5px auto;
+height: 50px;
+margin: 10px auto;
 display: flex;
 flex-direction: column;
 justify-content: center;
